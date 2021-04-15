@@ -97,7 +97,7 @@ export const myprojects = [
     imageurl: require("../images/shopapp.jpg").default,
     title: "Ecommerce App",
     description:
-      "Shop App made using Fliutter that allows users to view products, add them to the cart, view their orders and also allows them to add, edit and update products      ",
+      "Shop App made using Flutter that allows users to view products, add them to the cart, view their orders and also allows them to add, edit and update products      ",
     githuburl: "https://github.com/cosmasnyairo/shop_app",
   },
   {
