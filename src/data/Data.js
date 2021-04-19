@@ -137,7 +137,7 @@ export const myarticles = [
     subtitle: "ICT 2019 - 17th ICT Conference",
     date: "22nd March 2019",
     description:
-      "Research paper on the estate management system that aims to assist residents and the management committee in their operations within residential estates",
+      "A Research paper on the estate management system that aims to assist residents and the management committee in their operations within residential estates",
     researchgateurl:
       "https://www.researchgate.net/publication/350591375_Automated_Estate_Services_Management_System",
   },
@@ -145,7 +145,7 @@ export const myarticles = [
     title: "Tembea Kenya",
     date: "5th March 2020",
     description:
-      "Medium article documenting the development of the Tembea Kenya Application that enables users to explore places to visit in Kenya under various categories",
+      "A Medium article documenting the development of the Tembea Kenya Application that enables users to explore places to visit in Kenya under various categories",
     mediumurl:
       "https://cosmasnyairo.medium.com/making-a-places-to-visit-app-using-python-and-flutter-prerequisites-b1449c100ae8",
   },
