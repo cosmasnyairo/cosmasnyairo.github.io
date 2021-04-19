@@ -18,5 +18,7 @@ jobs:
         run : npm run prod:build
 
       - name: Deploy to github page
-        run : npm run deploy
-    
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-page
+          folder: build
