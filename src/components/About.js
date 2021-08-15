@@ -28,7 +28,7 @@ const About = () => {
               className="hover:bg-primary border border-primary gap-2 p-2 rounded inline-flex  items-center"
             >
               <FaPaperclip />
-              <p>Resume</p>
+              <p>My Resume</p>
             </a>
             <a
               href="mailto:nyaircosmas@gmail.com"
