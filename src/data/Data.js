@@ -16,7 +16,7 @@ export const mylinks = [
   },
   {
     icon: <FaLinkedin className=" text-primary h-8 w-8" />,
-    url: "https://www.linkedin.com/in/cosmas-nyairo-31066214a/",
+    url: "https://www.linkedin.com/in/cosmasnyairo",
   },
   {
     icon: <FaMedium className=" text-primary h-8 w-8" />,
