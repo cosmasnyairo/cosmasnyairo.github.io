@@ -8,14 +8,14 @@ const Projects = () => {
       <p className="text-2xl font-bold mb-4 text-center ">
         Projects ({myprojects.length})
       </p>
-      <div className="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 rounded-lg">
+      <div className="grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 rounded-lg">
         {myprojects.map((project, index) => (
           <div
             key={index}
             className="flex flex-col h-full w-full rounded-lg shadow-xl hover:shadow-2xl justify-between "
           >
             <img
-              className="rounded-t-lg object-cover h-44"
+              className="rounded-t-lg object-cover h-48"
               src={project.imageurl}
               alt="Profile"
             ></img>

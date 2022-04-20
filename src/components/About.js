@@ -17,7 +17,7 @@ const About = () => {
               Cosmas Nyairo
             </p>
             <p className="lg:text-left text-center ">
-              Full-Stack Software Engineer & UI/UX Developer
+            Software Engineer | DevOps Engineer
             </p>
           </div>
 

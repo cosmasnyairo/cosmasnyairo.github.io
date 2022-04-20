@@ -3,10 +3,7 @@ import {
   FaLinkedin,
   FaMedium,
   FaResearchgate,
-  FaCode,
-  FaDesktop,
-  FaMobile,
-  FaPaintBrush,
+
 } from "react-icons/fa";
 
 export const mylinks = [
@@ -31,27 +28,33 @@ export const mylinks = [
 export const myskills = [
   {
     id: 1,
-    icon: <FaCode className="h-16 w-16" />,
     skill: "Software Development",
-    tools: ["Python", "Java", "C++", "Git", "Firebase"],
+    tools: ["Python", "Java", "C++", "Git"],
   },
   {
     id: 2,
-    icon: <FaDesktop className="h-16 w-16" />,
+    skill: "Cloud & Container/Orchestration",
+    tools: ["AWS", "Kubernetes", "Docker"],
+  },
+  {
+    id: 3,
+    skill: "Infrastructure as Code",
+    tools: ["Terraform", "Cloudformation"],
+  },
+  {
+    id: 4,
+    skill: "𝐂𝐈/𝐂𝐃:",
+    tools: ["GitLab CI","Jenkins"],
+  },
+  {
+    id: 5,
     skill: "Web Development",
     tools: ["Javascript", "React Js", "Python (Flask)", "Css", "Html"],
   },
   {
-    id: 3,
-    icon: <FaMobile className="h-16 w-16" />,
+    id: 6,
     skill: "Mobile Development",
     tools: ["Java", "Flutter"],
-  },
-  {
-    id: 4,
-    icon: <FaPaintBrush className="h-16 w-16" />,
-    skill: "UI/UX Development",
-    tools: ["Adobe Xd ", "Adobe Illustrator ", "Figma", "Inkscape"],
   },
 ];
 
@@ -88,12 +91,6 @@ export const myprojects = [
     githuburl: "https://github.com/poppinjay13/Bisco",
   },
   {
-    imageurl: require("../images/tasktracker.png").default,
-    title: "React Task Tracker",
-    description: "React Website to track your task and set reminders",
-    githuburl: "https://github.com/cosmasnyairo/react_task_tracker",
-  },
-  {
     imageurl: require("../images/shopapp.jpg").default,
     title: "Ecommerce App",
     description:
@@ -106,28 +103,6 @@ export const myprojects = [
     description:
       "Webscrapping the first three pages of ecommerce site using beautiful soup and returning data into a csv file ",
     githuburl: "https://github.com/cosmasnyairo/jumia-page-webscrapping",
-  },
-
-  {
-    imageurl: require("../images/bookstore.jpg").default,
-    title: "Bookstore",
-    description:
-      "A Desktop application made with Tkinter library to view books in inventory",
-    githuburl: "https://github.com/cosmasnyairo/bookstore",
-  },
-  {
-    imageurl: require("../images/webmap.png").default,
-    title: "Python Webmap",
-    description:
-      "A python script that loads volcanoes and populations of countries and plots them to a webmap",
-    githuburl: "https://github.com/cosmasnyairo/python-webmap",
-  },
-  {
-    imageurl: require("../images/motiondetector.png").default,
-    title: "Python Motion Detector",
-    description:
-      "A python script that plots motion time to a bokeh graph and stores the times to a csv file",
-    githuburl: "https://github.com/cosmasnyairo/webcam-motion-detector",
   },
 ];
 
